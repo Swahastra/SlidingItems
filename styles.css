@@ -4,20 +4,22 @@
     box-sizing: border-box;
 }
 
-body{
-    background: #eaeaea;
-    overflow: hidden;
-}
+body {
+            background: #b1f0e5;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px; /* Added padding to prevent touching edges */
+            overflow: hidden;
+        }
 
 .container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
     width: 1000px;
     height: 600px;
     background: #f5f5f5;
-    box-shadow: 0 30px 50px #dbdbdb;
+    box-shadow: 0 30px 50px #a3f0e3;
 }
 
 .container .slide .item{
@@ -27,7 +29,7 @@ body{
     top: 50%;
     transform: translate(0, -50%);
     border-radius: 20px;
-    box-shadow: 0 30px 50px #505050;
+    box-shadow: 0 30px 50px #cbf7f0;
     background-position: 50% 50%;
     background-size: cover;
     display: inline-block;
@@ -66,12 +68,12 @@ body{
 .item .content{
     position: absolute;
     top: 50%;
-    left: 100px;
+    left: 40px;
     width: 300px;
     text-align: left;
     color: #eee;
     transform: translate(0, -50%);
-    font-family: system-ui;
+    font-family: Georgia, serif;
     display: none;
 }
 
@@ -104,6 +106,7 @@ body{
 }
 
 .content button{
+  font-family: Georgia, serif;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
