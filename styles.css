@@ -6,7 +6,7 @@
         }
 
        body {
-            background: #18d7de;
+            background: #bdeef0;
             height: 100vh;
             display: flex;
             justify-content: center;
@@ -21,8 +21,9 @@
             height: 80%; /* Adjust height relative to screen size */
             max-height: 600px;
             background: #f5f5f5;
-            box-shadow: 0 30px 50px #9ee3e6;
-            position: absolute;
+            box-shadow: 0 30px 50px #4d8a8c;
+            position: relative;
+            
           
             border-radius: 45px; /* Optional: Add a border-radius for better appearance */
         }
@@ -34,7 +35,7 @@
             top: 50%;
             transform: translate(0, -50%);
             border-radius: 20px;
-            box-shadow: 0 30px 50px #ace4e6;
+            box-shadow: 0 30px 50px #95bbbd;
             background-position: 50% 50%;
             background-size: cover;
             display: inline-block;
